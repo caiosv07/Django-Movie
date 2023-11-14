@@ -86,9 +86,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD':'Eda-*4fe1b4ECAdG5gfGFC13A5-242Cb',
+        'PASSWORD':'-BAaF-35C1Fd43dG2Ga4fbeFfCe*Efd4',
         'HOST': 'viaduct.proxy.rlwy.net',
-        'PORT':'34150',  
+        'PORT':'51953',  
     }
 }
 
@@ -154,3 +154,7 @@ if not DEBUG:
         )
 
     STATIC_ROOT = ""
+
+
+if not DEBUG:
+    CSRF_TRUSTED_ORIGINS = ['https://web-production-64e5.up.railway.app']
