@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'crispy_bootstrap5',
     "mathfilters",
-    'whitenoise.runserver_nostatic',    
+    'whitenoise.runserver_nostatic', 
 ]
 
 MIDDLEWARE = [
